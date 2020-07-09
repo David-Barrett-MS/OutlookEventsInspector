@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspectorEvents", "InspectorEvents\InspectorEvents.csproj", "{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3AFBD3-D4FA-4C6C-80F4-0A87120B8ED8}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9E0EDC0-39FB-41F8-B199-CBB377BE543B}
+	EndGlobalSection
+EndGlobal

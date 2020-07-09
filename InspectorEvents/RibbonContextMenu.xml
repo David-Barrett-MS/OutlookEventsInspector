@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <contextMenus>
+    <contextMenu idMso="ContextMenuFolder"> 
+      <button id="FolderMonitorItemEvents" label="Monitor for events" getVisible="IsMonitorFolderVisible" onAction="MonitorFolderItemEvents"/> 
+      <button id="FolderUnmonitorItemEvents" label="Stop monitoring events" getVisible="IsUnmonitorFolderVisible" onAction="UnmonitorFolderItemEvents"/> 
+      <button id="FolderMonitorItems" label="Monitor items (watch for new/edited)" onAction="MonitorFolderItems"/>
+      <button id="FolderMonitorItemsEWS" label="Monitor items using EWS (watch for new/edited)" onAction="MonitorFolderItemsEWS"/> 
+    </contextMenu> 
+  </contextMenus> 
+</customUI>
+
