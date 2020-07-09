@@ -1,5 +1,5 @@
 ﻿/*
- * By David Barrett, Microsoft Ltd. 2016. Use at your own risk.  No warranties are given.
+ * By David Barrett, Microsoft Ltd. 2016-2020. Use at your own risk.  No warranties are given.
  * 
  * DISCLAIMER:
  * THIS CODE IS SAMPLE CODE. THESE SAMPLES ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
@@ -10,6 +10,7 @@
  * SAMPLES, EVEN IF MICROSOFT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION
  * OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
  */
+
 using System;
 using System.Collections.Generic;
 using System.IO;

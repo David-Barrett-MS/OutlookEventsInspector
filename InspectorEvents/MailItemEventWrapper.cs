@@ -1,5 +1,5 @@
 ﻿/*
- * By David Barrett, Microsoft Ltd. 2016. Use at your own risk.  No warranties are given.
+ * By David Barrett, Microsoft Ltd. 2016-2020. Use at your own risk.  No warranties are given.
  * 
  * DISCLAIMER:
  * THIS CODE IS SAMPLE CODE. THESE SAMPLES ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
@@ -153,11 +153,11 @@ namespace InspectorEvents
             Globals.ThisAddIn.EventTrackerForm.AddLog("Item_Read (MailItem)");
             if (_analyseWhenLoaded)
             {
-                // This is an ItemLoad event after we had an Explorer SelectionChange event.
+                // This is an Item_Read event after we had an Explorer SelectionChange event.
                 // This should imply that we are loading the item into the preview pane.  It might be necessary
                 // to add more checks here (i.e. to confirm that the item being loaded is actually being shown in the reading pane)
 
-                _analyseWhenLoaded = false;
+                _analyseWhenLoaded = false; // We only need to do this once
                 Globals.ThisAddIn.ReadItemProperty(Item, Globals.ThisAddIn.EventTrackerForm.textBoxPropId.Text);
             }
         }
